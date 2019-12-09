@@ -1,0 +1,12 @@
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\YZH.Dal.dll.config
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\YZH.Dal.dll
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\YZH.Dal.pdb
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\EntityFramework.dll
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\HPIT.Data.Core.dll
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\EntityFramework.xml
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\obj\Debug\YZH.Dal.csproj.CopyComplete
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\obj\Debug\YZH.Dal.dll
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\obj\Debug\YZH.Dal.pdb
+C:\Users\16682\Desktop\YZH.entity.Web\YZH.Dal\obj\Debug\YZH.Dal.csprojAssemblyReference.cache

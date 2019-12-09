@@ -1,0 +1,77 @@
+﻿@model IEnumerable<YZH.Dal.CG_Commodity>
+
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("添加", "insert")
+    </p>
+    <table class="table table-responsive">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ComName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ComDiscount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CommDemo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShopID)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.Show)
+                </th>*@
+            <th>
+                操作
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ComName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ComDiscount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CommDemo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ShopID)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.Show)
+                    </td>*@
+                <td>
+                    @Html.ActionLink("编辑", "update", new { id = item.ComID }) |
+                    @Html.ActionLink("详情", "Details", new { id = item.ComID }) |
+                    @Html.ActionLink("删除", "Delete", new { id = item.ComID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+@section scripts{
+    <script>
+        $(function () {
+            alert("你好");
+        })
+
+    </script>
+}
+</html>
