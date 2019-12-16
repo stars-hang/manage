@@ -1,0 +1,13 @@
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\HPIT.FL.dll.config
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\HPIT.FL.dll
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\HPIT.FL.pdb
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\EntityFramework.dll
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\EntityFramework.SqlServer.dll
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\EntityFramework.xml
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\EntityFramework.SqlServer.xml
+D:\实训\MVC小项目\Flower\HPIT.FL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\实训\MVC小项目\Flower\HPIT.FL\obj\Debug\HPIT.FL.csproj.CoreCompileInputs.cache
+D:\实训\MVC小项目\Flower\HPIT.FL\obj\Debug\HPIT.FL.csproj.CopyComplete
+D:\实训\MVC小项目\Flower\HPIT.FL\obj\Debug\HPIT.FL.dll
+D:\实训\MVC小项目\Flower\HPIT.FL\obj\Debug\HPIT.FL.pdb
+D:\实训\MVC小项目\Flower\HPIT.FL\obj\Debug\HPIT.FL.csprojAssemblyReference.cache

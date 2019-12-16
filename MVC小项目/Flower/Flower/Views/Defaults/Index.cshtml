@@ -1,0 +1,51 @@
+﻿@model IEnumerable<HPIT.FL.xinxi>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.fname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.moneys)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.indurtuds)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fid)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.fname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.moneys)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.indurtuds)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fid)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
